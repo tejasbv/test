@@ -11,6 +11,7 @@ using Microsoft.Xna.Framework.Media;
 
 namespace WindowsGame1
 {
+    //
     /// <summary>
     /// This is the main type for your game
     /// </summary>
@@ -18,7 +19,7 @@ namespace WindowsGame1
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-
+        int x;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
