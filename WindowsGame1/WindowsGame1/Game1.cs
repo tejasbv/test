@@ -20,6 +20,7 @@ namespace WindowsGame1
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         int x;
+        int y;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
